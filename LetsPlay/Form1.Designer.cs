@@ -39,12 +39,11 @@
             // 
             // door1btn
             // 
-            this.door1btn.BackgroundImage = global::LetsPlay.Properties.Resources.water_65425408_Cartoon_wooden_door_vector_illustration_free_download_m;
             this.door1btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.door1btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.door1btn.FlatAppearance.BorderSize = 0;
             this.door1btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.door1btn.Location = new System.Drawing.Point(76, 123);
+            this.door1btn.Location = new System.Drawing.Point(81, 126);
             this.door1btn.Name = "door1btn";
             this.door1btn.Size = new System.Drawing.Size(92, 184);
             this.door1btn.TabIndex = 0;
@@ -53,12 +52,11 @@
             // 
             // door2btn
             // 
-            this.door2btn.BackgroundImage = global::LetsPlay.Properties.Resources.water_65425408_Cartoon_wooden_door_vector_illustration_free_download_m;
             this.door2btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.door2btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.door2btn.FlatAppearance.BorderSize = 0;
             this.door2btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.door2btn.Location = new System.Drawing.Point(178, 123);
+            this.door2btn.Location = new System.Drawing.Point(183, 126);
             this.door2btn.Name = "door2btn";
             this.door2btn.Size = new System.Drawing.Size(92, 184);
             this.door2btn.TabIndex = 1;
@@ -67,12 +65,11 @@
             // 
             // door3btn
             // 
-            this.door3btn.BackgroundImage = global::LetsPlay.Properties.Resources.water_65425408_Cartoon_wooden_door_vector_illustration_free_download_m;
             this.door3btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.door3btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.door3btn.FlatAppearance.BorderSize = 0;
             this.door3btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.door3btn.Location = new System.Drawing.Point(280, 123);
+            this.door3btn.Location = new System.Drawing.Point(285, 126);
             this.door3btn.Name = "door3btn";
             this.door3btn.Size = new System.Drawing.Size(92, 184);
             this.door3btn.TabIndex = 2;
@@ -82,18 +79,20 @@
             // msgLbl
             // 
             this.msgLbl.AutoSize = true;
-            this.msgLbl.Location = new System.Drawing.Point(292, 42);
+            this.msgLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.msgLbl.Location = new System.Drawing.Point(36, 32);
             this.msgLbl.Name = "msgLbl";
-            this.msgLbl.Size = new System.Drawing.Size(50, 13);
+            this.msgLbl.Size = new System.Drawing.Size(576, 50);
             this.msgLbl.TabIndex = 3;
-            this.msgLbl.Text = "Message\r\n";
-            this.msgLbl.Click += new System.EventHandler(this.MsgLbl_Click);
+            this.msgLbl.Text = "Let\'s play the door challenge. \r\nChoose one of the doors and win your school grad" +
+    "e!!!";
+            this.msgLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // resetBtn
             // 
-            this.resetBtn.Location = new System.Drawing.Point(548, 396);
+            this.resetBtn.Location = new System.Drawing.Point(280, 366);
             this.resetBtn.Name = "resetBtn";
-            this.resetBtn.Size = new System.Drawing.Size(75, 23);
+            this.resetBtn.Size = new System.Drawing.Size(100, 41);
             this.resetBtn.TabIndex = 4;
             this.resetBtn.Text = "Reset Game\r\n";
             this.resetBtn.UseVisualStyleBackColor = true;
@@ -101,29 +100,29 @@
             // 
             // door4btn
             // 
-            this.door4btn.BackgroundImage = global::LetsPlay.Properties.Resources.water_65425408_Cartoon_wooden_door_vector_illustration_free_download_m;
             this.door4btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.door4btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.door4btn.FlatAppearance.BorderSize = 0;
             this.door4btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.door4btn.Location = new System.Drawing.Point(382, 123);
+            this.door4btn.Location = new System.Drawing.Point(387, 126);
             this.door4btn.Name = "door4btn";
             this.door4btn.Size = new System.Drawing.Size(92, 184);
             this.door4btn.TabIndex = 5;
             this.door4btn.UseVisualStyleBackColor = true;
+            this.door4btn.Click += new System.EventHandler(this.Door4btn_Click);
             // 
             // door5btn
             // 
-            this.door5btn.BackgroundImage = global::LetsPlay.Properties.Resources.water_65425408_Cartoon_wooden_door_vector_illustration_free_download_m;
             this.door5btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.door5btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.door5btn.FlatAppearance.BorderSize = 0;
             this.door5btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.door5btn.Location = new System.Drawing.Point(484, 123);
+            this.door5btn.Location = new System.Drawing.Point(489, 126);
             this.door5btn.Name = "door5btn";
             this.door5btn.Size = new System.Drawing.Size(92, 184);
             this.door5btn.TabIndex = 6;
             this.door5btn.UseVisualStyleBackColor = true;
+            this.door5btn.Click += new System.EventHandler(this.Door5btn_Click);
             // 
             // Form1
             // 
@@ -138,7 +137,7 @@
             this.Controls.Add(this.door2btn);
             this.Controls.Add(this.door1btn);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Door Challenge";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

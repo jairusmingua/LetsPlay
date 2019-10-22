@@ -7,3 +7,4 @@ C:\Users\Jairus\Source\Repos\LetsPlay\LetsPlay\obj\Debug\LetsPlay.csproj.Generat
 C:\Users\Jairus\Source\Repos\LetsPlay\LetsPlay\obj\Debug\LetsPlay.csproj.CoreCompileInputs.cache
 C:\Users\Jairus\Source\Repos\LetsPlay\LetsPlay\obj\Debug\LetsPlay.exe
 C:\Users\Jairus\Source\Repos\LetsPlay\LetsPlay\obj\Debug\LetsPlay.pdb
+C:\Users\Jairus\Source\Repos\LetsPlay\LetsPlay\obj\Debug\LetsPlay.csprojAssemblyReference.cache

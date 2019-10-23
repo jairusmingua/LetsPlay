@@ -130,6 +130,7 @@ namespace LetsPlay
             {
                 l[index].Text = doors[index];
                 d[index].Visible = false;
+                noBtn.Text = "No (Close App)";
                 showPrompt();
                 m = String.Format("Congratulations you won a {0}!!!\nReset Game?", doors[index]);
             }
@@ -156,6 +157,7 @@ namespace LetsPlay
             changeBtnState(true);
             showButtons();
             hidePrompt();
+            noBtn.Text = "No";
             msgLbl.Text = "Let's play the door challenge.\nChoose one of the doors and win your school grade!!!";
         }
         private void showButtons()
@@ -174,6 +176,7 @@ namespace LetsPlay
                 msgLbl.Text = m;
                 changeBtnState(true);
                 hidePrompt();
+                
             }
             else if (tries == 0)
             {
@@ -184,7 +187,12 @@ namespace LetsPlay
 
         private void NoBtn_Click(object sender, EventArgs e)
         {
-            bargain(choice);
+            if (tries==1)
+                bargain(choice);
+            else if (tries == 0)
+            {
+                this.Close();
+            }
         }
 
         private void Label0_Click(object sender, EventArgs e)

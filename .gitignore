@@ -1,4 +1,4 @@
 *.vs  
-\LetsPlay\bin
-\LetsPlay\obj
+/LetsPlay/bin
+/LetsPlay/obj
 
